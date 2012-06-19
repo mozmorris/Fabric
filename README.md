@@ -13,8 +13,8 @@ Fabric needs PHP 5.3.3 or later.
 Installation
 ------------
 
-Point your web server at the root folder.
-Rename Environment.default.php to Environment.php (found under /App/Config/)
+Point your web server at the root folder.  
+Rename Environment.default.php to Environment.php (found under /App/Config/)  
 Make `/App/Webroot/assests` writable by the web server
 
 
