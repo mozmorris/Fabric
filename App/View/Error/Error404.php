@@ -1,0 +1,1 @@
+<h1><?php echo _('Page not found') ?></h1>

@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MetroLastLight\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-15 10:40+0100\n"
+"PO-Revision-Date: 2012-06-15 10:40+0100\n"
+"Last-Translator: Moz Morris <moz@earthview.co.uk>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../View/Error/Error404.php:1
+msgid "Page not found"
+msgstr ""
+
+#: ../../../View/Error/Error500.php:1
+#: ../../../View/StaticPage/Home.php:1
+msgid "Internal server error"
+msgstr ""
+
+#: ../../../View/Layout/Default.php:13
+msgid "Fabric - A small, light weight and fast PHP framework for web sites"
+msgstr ""
+
+#: ../../../View/StaticPage/Home.php:3
+msgid "You can find me under"
+msgstr ""
+
+#~ msgid "meta_title"
+#~ msgstr "Metro: Last Light"
+
+#~ msgid "meta_description"
+#~ msgstr ""
+#~ "Metro: Last Light is the hugely anticipated sequel to Metro 2033. As "
+#~ "Artyom, you hold the key to our survival – the last light in our darkest "
+#~ "hour…"
+
+#~ msgid "meta_keywords"
+#~ msgstr "Metro Last Light, THQ"
+
+#~ msgid "three_leaders"
+#~ msgstr "Three leaders"
+
+#~ msgid "key_characters"
+#~ msgstr "Key characters"
+
+#~ msgid "main_characters"
+#~ msgstr "Main characters"
+
+#~ msgid "Released"
+#~ msgstr "Coming"
+
+#~ msgid "COPYRIGHT_TEXT"
+#~ msgstr ""
+#~ "© 2012 THQ Inc. Developed by 4A Games. 4A Games Limited and their "
+#~ "respective logo are trademarks of 4A Games Limited. THQ and the THQ logo "
+#~ "are trademarks and/or registered trademarks of THQ Inc. All Rights "
+#~ "Reserved. All other trademarks, logos and copyrights are property of "
+#~ "their respective owners. KINECT, Xbox, Xbox 360, Xbox LIVE, and the Xbox "
+#~ "logos are trademarks of the Microsoft group of companies and are used "
+#~ "under license from Microsoft. “PlayStation” and the “PS” Family logo are "
+#~ "registered trademarks and “PS3” and the PlayStation Network logo are "
+#~ "trademarks of Sony Computer Entertainment Inc."
