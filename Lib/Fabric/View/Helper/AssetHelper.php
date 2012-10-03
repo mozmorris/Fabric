@@ -202,7 +202,10 @@ class AssetHelper extends \Fabric\View\Helper {
     $path = $this->assetExtension($path, $assetExtension);
     $path = $this->assetDirectory($path, $assetDirectory);
     $path = $this->assetTimestamp($path);
-    $path = $this->assetHost($path);
+
+    if (array_key_exists('asset_host', $this->_Config->environment)) {
+      $path = $this->assetHost($path);
+    }
 
     return $path;
   }
@@ -224,10 +227,10 @@ class AssetHelper extends \Fabric\View\Helper {
 
   /* Add an asset host to a path.
    *
-   * Use the assetHost config variable if defined, otherwise retun the unaltered path.
+   * Use the assetHost config variable
    */
   public function assetHost($path){
-    $assetHost = array_key_exists('asset_host', $this->_Config->environment) ? rtrim($this->_Config->environment['asset_host'], '/') : '';
+    $assetHost = rtrim($this->_Config->environment['asset_host'], '/');
     return "//{$assetHost}{$path}";
   }
 
@@ -279,6 +282,4 @@ class AssetHelper extends \Fabric\View\Helper {
   public function stylesheetPath($path) {
     return $this->assetPath($path, 'stylesheets', 'css');
   }
-
-
 }
